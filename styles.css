@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');  
+body{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    height: 70px;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    box-shadow: 1px 1px 0px black;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.media ul li{
+    list-style-type: none;
+}
+.header-logo{
+    font-weight: 600;
+    font-size: 30px;
+    padding: 17px 30px;
+     
+}
+.header-logo a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+.media li{
+    display: inline;
+    padding: 40px;
+}
+.media ul li a{
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+    transition: 0.4s;
+    
+}
+.media ul li a:hover{
+    text-shadow: 0px 1px 3px black;
+    color: black;
+    font-size: 16px;
+}
+.media ul li a:active{
+    color: rgb(158, 154, 154);
+    transition: 0s;
+}
+.media ul{
+    margin-right: 350px;
+}
+.txt{  
+    position: fixed;
+    padding: 0px 50px;
+}
+.container1{
+    width: 470px;
+    height: 100%;
+    padding-top: 30px;
+}
+.p1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.p2{
+    font-weight: 500;
+    font-size: 16px;
+}
+.p3{
+    font-weight: 400;
+    padding: 1px 0px;
+}
+.button{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.button p{
+    color: white;
+    background-color: black;
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin-top: 4px;
+    margin-left: -20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.button:hover{
+    text-shadow: 1px 1px 3px rgb(255, 255, 255);
+}
+.button p a{
+    text-decoration: none;
+    color: white;
+}
+.spon{
+    font-weight: 500;
+    font-size: 10px;
+    padding: 50px 0px;
+}
+.img1{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.img-1{
+    width: 450px;
+    padding: 50px;
+}
+.img2{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+
